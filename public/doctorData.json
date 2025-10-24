@@ -19,7 +19,7 @@
     },
     {
       "id": "dr-002",
-      "image": "https://example.com/images/doctor2.jpg",
+      "image": "../src/assets/images/dr1.jpg",
       "name": "Dr. Mahmudul Hasan",
       "available": "Not Available",
       "education": ["MBBS - Rajshahi Medical College", "FCPS (Surgery) - BCPS"],
@@ -37,7 +37,7 @@
     },
     {
       "id": "dr-003",
-      "image": "https://example.com/images/doctor3.jpg",
+      "image": "../src/assets/images/dr1.jpg",
       "name": "Dr. Farhana Sultana",
       "available": "Available",
       "education": ["MBBS - Chittagong Medical College", "MD (Pediatrics) - CMU"],
@@ -55,7 +55,7 @@
     },
     {
       "id": "dr-004",
-      "image": "https://example.com/images/doctor4.jpg",
+      "image": "../src/assets/images/dr1.jpg",
       "name": "Dr. Rubel Ahmed",
       "available": "Not Available",
       "education": ["MBBS - Sylhet MAG Osmani Medical College", "MS (Orthopedics) - NITOR"],
@@ -73,7 +73,7 @@
     },
     {
       "id": "dr-005",
-      "image": "https://example.com/images/doctor5.jpg",
+      "image": "../src/assets/images/dr1.jpg",
       "name": "Dr. Laila Noor",
        "available": "Available",
       "education": ["MBBS - BSMMU", "MD (Gynaecology) - BSMMU"],
@@ -91,7 +91,7 @@
     },
     {
       "id": "dr-006",
-      "image": "https://example.com/images/doctor6.jpg",
+      "image": "../src/assets/images/dr1.jpg",
       "name": "Dr. Sajid Karim",
        "available": "Available",
       "education": ["MBBS - Mymensingh Medical College", "MD (Cardiology) - NICVD"],
@@ -109,7 +109,7 @@
     },
     {
       "id": "dr-007",
-      "image": "https://example.com/images/doctor7.jpg",
+      "image": "../src/assets/images/dr1.jpg",
       "name": "Dr. Nafisa Chowdhury",
        "available": "Available",
       "education": ["MBBS - Khulna Medical College", "FCPS (Dermatology) - BCPS"],
@@ -127,7 +127,7 @@
     },
     {
       "id": "dr-008",
-      "image": "https://example.com/images/doctor8.jpg",
+      "image": "../src/assets/images/dr1.jpg",
       "name": "Dr. Tanvir Alam",
        "available": "Available",
       "education": ["MBBS - Dhaka Medical College", "MS (ENT) - BSMMU"],
@@ -145,7 +145,7 @@
     },
     {
       "id": "dr-009",
-      "image": "https://example.com/images/doctor9.jpg",
+      "image": "../src/assets/images/dr1.jpg",
       "name": "Dr. Samina Yasmin",
        "available": "Available",
       "education": ["MBBS - Rangpur Medical College", "FCPS (Neurology) - BCPS"],
@@ -163,7 +163,7 @@
     },
     {
       "id": "dr-010",
-      "image": "https://example.com/images/doctor10.jpg",
+      "image": "../src/assets/images/dr1.jpg",
       "name": "Dr. Rezaul Islam",
        "available": "Available",
       "education": ["MBBS - Barisal Medical College", "MS (Urology) - BSMMU"],
@@ -181,7 +181,7 @@
     },
     {
       "id": "dr-011",
-      "image": "https://example.com/images/doctor11.jpg",
+      "image": "../src/assets/images/dr1.jpg",
       "name": "Dr. Nilufa Akter",
        "available": "Available",
       "education": ["MBBS - Comilla Medical College", "FCPS (Ophthalmology) - BCPS"],
@@ -199,7 +199,7 @@
     },
     {
       "id": "dr-012",
-      "image": "https://example.com/images/doctor12.jpg",
+      "image": "../src/assets/images/dr1.jpg",
       "name": "Dr. Arif Hossain",
        "available": "Available",
       "education": ["MBBS - Dhaka Medical College", "MD (Nephrology) - BSMMU"],
