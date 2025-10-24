@@ -23,11 +23,15 @@ const Doctors = ({ data }) => {
       </div>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-7">
+         <Suspense fallback={<div className="animate-spin">🔄</div>}>
         {data.slice(0, visible).map((singleData) => (
           <Doctor singleData={singleData} key={singleData.id} handleLoadMore={handleLoadMore}></Doctor>
         ))}
+         </Suspense>
       </div>
+         
 
+{/* visability data - show more btn  */}
       {
         visible < data.length && (
                 <button onClick={handleLoadMore} className="mt-8 btn rounded-full bg-blue-400 text-white border-none shadow-none ">Show More</button>
@@ -35,7 +39,7 @@ const Doctors = ({ data }) => {
         )
       }
 
-      <Suspense />
+ 
     </div>
   );
 };

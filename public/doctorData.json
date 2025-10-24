@@ -1,6 +1,6 @@
  [
     {
-      "id": "dr-001",
+      "id": 1,
       "image": "../src/assets/images/dr1.jpg",
       "name": "Dr. Ayesha Rahman",
       "available": "Available",
@@ -18,7 +18,7 @@
       }
     },
     {
-      "id": "dr-002",
+      "id": 2,
       "image": "../src/assets/images/dr1.jpg",
       "name": "Dr. Mahmudul Hasan",
       "available": "Not Available",
@@ -36,7 +36,7 @@
       }
     },
     {
-      "id": "dr-003",
+      "id":3,
       "image": "../src/assets/images/dr1.jpg",
       "name": "Dr. Farhana Sultana",
       "available": "Available",
@@ -54,7 +54,7 @@
       }
     },
     {
-      "id": "dr-004",
+      "id": 4,
       "image": "../src/assets/images/dr1.jpg",
       "name": "Dr. Rubel Ahmed",
       "available": "Not Available",
@@ -72,7 +72,7 @@
       }
     },
     {
-      "id": "dr-005",
+      "id": 5,
       "image": "../src/assets/images/dr1.jpg",
       "name": "Dr. Laila Noor",
        "available": "Available",
@@ -90,7 +90,7 @@
       }
     },
     {
-      "id": "dr-006",
+      "id": 6,
       "image": "../src/assets/images/dr1.jpg",
       "name": "Dr. Sajid Karim",
        "available": "Available",
@@ -108,7 +108,7 @@
       }
     },
     {
-      "id": "dr-007",
+      "id": 7,
       "image": "../src/assets/images/dr1.jpg",
       "name": "Dr. Nafisa Chowdhury",
        "available": "Available",
@@ -126,7 +126,7 @@
       }
     },
     {
-      "id": "dr-008",
+      "id": 8,
       "image": "../src/assets/images/dr1.jpg",
       "name": "Dr. Tanvir Alam",
        "available": "Available",
@@ -144,7 +144,7 @@
       }
     },
     {
-      "id": "dr-009",
+      "id": 9,
       "image": "../src/assets/images/dr1.jpg",
       "name": "Dr. Samina Yasmin",
        "available": "Available",
@@ -162,7 +162,7 @@
       }
     },
     {
-      "id": "dr-010",
+      "id": 10,
       "image": "../src/assets/images/dr1.jpg",
       "name": "Dr. Rezaul Islam",
        "available": "Available",
@@ -180,7 +180,7 @@
       }
     },
     {
-      "id": "dr-011",
+      "id": 11,
       "image": "../src/assets/images/dr1.jpg",
       "name": "Dr. Nilufa Akter",
        "available": "Available",
@@ -198,7 +198,7 @@
       }
     },
     {
-      "id": "dr-012",
+      "id": 12,
       "image": "../src/assets/images/dr1.jpg",
       "name": "Dr. Arif Hossain",
        "available": "Available",

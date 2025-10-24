@@ -1,10 +1,11 @@
 
 import { FaHandHoldingMedical } from "react-icons/fa";
+import { Link } from "react-router";
 
 
 const Doctor = ({singleData}) => {
     
-    const {image,available,experience_years,name,education,registration_number,} = singleData;
+    const {id,image,available,experience_years,name,education,registration_number,} = singleData;
 
 
 
@@ -30,8 +31,8 @@ const Doctor = ({singleData}) => {
     <h6 className="text-xl py-4 border-t-2 border-dashed border-gray-200"><FaHandHoldingMedical className='inline-block mr-2 text-blue-500' /> Reg No: {registration_number}</h6>
     
 
-         <button  className='btn btn-full rounded-full bg-transparent  border-blue-500 text-blue-500 hover:bg-blue-500 hover:text-white shadow-none transition duration-300 ease-in-out
- '>View Details</button>
+         <Link to = {`/doctorDetails/${id}`} className='btn btn-full rounded-full bg-transparent border-2 border-blue-500 text-blue-500 hover:bg-blue-500 hover:text-white shadow-none transition duration-300 ease-in-out
+ '>View Details</Link>
  
   </div>
 </div>
