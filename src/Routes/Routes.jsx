@@ -22,9 +22,9 @@ export const router = createBrowserRouter([
         Component: Home 
        },
        {
-        path:"/doctorDetails/id",
+        path:'/doctorDetails/:id',
         loader: ()=> fetch("doctorData.json"),
-        Component: <DoctorDetails/>
+        Component: DoctorDetails
        },
        {
         path:"/myBooking",

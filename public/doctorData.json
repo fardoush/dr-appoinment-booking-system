@@ -11,6 +11,7 @@
       "designation": "Consultant Physician",
       "workplace": { "name": "Central Care Hospital", "address": "Dhanmondi, Dhaka" },
       "fee_bdt": 800,
+      "days": ["Sun", "Tue", "Thu"],
       "availability": {
         "days": ["Sun", "Tue", "Thu"],
         "time": "5:00 PM - 9:00 PM",
@@ -29,6 +30,7 @@
       "designation": "Senior Surgeon",
       "workplace": { "name": "Green Valley Medical Center", "address": "Uttara, Dhaka" },
       "fee_bdt": 1200,
+      "days": ["Mon", "Wed", "Sat"],
       "availability": {
         "days": ["Mon", "Wed", "Sat"],
         "time": "3:00 PM - 7:00 PM",
@@ -47,6 +49,7 @@
       "designation": "Pediatrician",
       "workplace": { "name": "Little Stars Child Clinic", "address": "Muradpur, Chittagong" },
       "fee_bdt": 600,
+      "days": ["Sun", "Mon", "Wed"],
       "availability": {
         "days": ["Sun", "Mon", "Wed"],
         "time": "10:00 AM - 1:00 PM",
@@ -65,6 +68,7 @@
       "designation": "Associate Professor (Orthopedics)",
       "workplace": { "name": "East End Orthopedic Hospital", "address": "Sylhet" },
       "fee_bdt": 1500,
+      "days": ["Tue", "Thu", "Fri"],
       "availability": {
         "days": ["Tue", "Thu", "Fri"],
         "time": "4:00 PM - 8:00 PM",
@@ -83,6 +87,7 @@
       "designation": "Consultant Gynaecologist",
       "workplace": { "name": "Harmony Women's Clinic", "address": "Motijheel, Dhaka" },
       "fee_bdt": 1000,
+      "days": ["Sun", "Tue", "Thu"],
       "availability": {
         "days": ["Sun", "Tue", "Thu"],
         "time": "6:00 PM - 9:00 PM",
@@ -101,8 +106,8 @@
       "designation": "Consultant Cardiologist",
       "workplace": { "name": "HeartCare Hospital", "address": "Kawran Bazar, Dhaka" },
       "fee_bdt": 1500,
+      "days": ["Mon", "Wed", "Fri"],
       "availability": {
-        "days": ["Mon", "Wed", "Fri"],
         "time": "5:00 PM - 9:00 PM",
         "available": true
       }
@@ -119,6 +124,7 @@
       "designation": "Dermatologist",
       "workplace": { "name": "Radiant Skin Care", "address": "Banani, Dhaka" },
       "fee_bdt": 900,
+      "days": ["Tue", "Thu", "Sat"],
       "availability": {
         "days": ["Tue", "Thu", "Sat"],
         "time": "2:00 PM - 6:00 PM",
@@ -137,6 +143,7 @@
       "designation": "ENT Surgeon",
       "workplace": { "name": "SoundCare Hospital", "address": "Mohakhali, Dhaka" },
       "fee_bdt": 1000,
+      "days": ["Mon", "Wed", "Fri"],
       "availability": {
         "days": ["Mon", "Wed", "Fri"],
         "time": "10:00 AM - 2:00 PM",
@@ -155,6 +162,7 @@
       "designation": "Neurologist",
       "workplace": { "name": "Neuro Life Hospital", "address": "Farmgate, Dhaka" },
       "fee_bdt": 1600,
+      "days": ["Sun", "Tue", "Thu"],
       "availability": {
         "days": ["Sun", "Tue", "Thu"],
         "time": "3:00 PM - 8:00 PM",
@@ -173,6 +181,7 @@
       "designation": "Urologist",
       "workplace": { "name": "UroMed Center", "address": "Mirpur, Dhaka" },
       "fee_bdt": 1100,
+      "days": ["Mon", "Wed", "Fri"],
       "availability": {
         "days": ["Mon", "Wed", "Fri"],
         "time": "5:00 PM - 8:30 PM",
@@ -191,6 +200,7 @@
       "designation": "Ophthalmologist",
       "workplace": { "name": "Vision Plus Eye Center", "address": "Dhanmondi, Dhaka" },
       "fee_bdt": 700,
+      "days": ["Tue", "Thu", "Sat"],
       "availability": {
         "days": ["Tue", "Thu", "Sat"],
         "time": "9:00 AM - 12:00 PM",
@@ -209,6 +219,7 @@
       "designation": "Senior Consultant (Nephrology)",
       "workplace": { "name": "Kidney Health Institute", "address": "Shyamoli, Dhaka" },
       "fee_bdt": 1500,
+      "days": ["Sun", "Wed", "Fri"],
       "availability": {
         "days": ["Sun", "Wed", "Fri"],
         "time": "4:30 PM - 8:30 PM",
