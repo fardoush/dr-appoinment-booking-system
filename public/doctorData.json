@@ -1,0 +1,219 @@
+ [
+    {
+      "id": "dr-001",
+      "image": "../src/assets/images/dr1.jpg",
+      "name": "Dr. Ayesha Rahman",
+      "available": "Available",
+      "education": ["MBBS - Dhaka Medical College", "MD (Medicine) - BSMMU"],
+      "speciality": ["Internal Medicine", "Diabetes Management"],
+      "experience_years": 12,
+      "registration_number": "BMDC12345",
+      "designation": "Consultant Physician",
+      "workplace": { "name": "Central Care Hospital", "address": "Dhanmondi, Dhaka" },
+      "fee_bdt": 800,
+      "availability": {
+        "days": ["Sun", "Tue", "Thu"],
+        "time": "5:00 PM - 9:00 PM",
+        "available": true
+      }
+    },
+    {
+      "id": "dr-002",
+      "image": "https://example.com/images/doctor2.jpg",
+      "name": "Dr. Mahmudul Hasan",
+      "available": "Not Available",
+      "education": ["MBBS - Rajshahi Medical College", "FCPS (Surgery) - BCPS"],
+      "speciality": ["General Surgery"],
+      "experience_years": 9,
+      "registration_number": "BMDC67890",
+      "designation": "Senior Surgeon",
+      "workplace": { "name": "Green Valley Medical Center", "address": "Uttara, Dhaka" },
+      "fee_bdt": 1200,
+      "availability": {
+        "days": ["Mon", "Wed", "Sat"],
+        "time": "3:00 PM - 7:00 PM",
+        "available": false
+      }
+    },
+    {
+      "id": "dr-003",
+      "image": "https://example.com/images/doctor3.jpg",
+      "name": "Dr. Farhana Sultana",
+      "available": "Available",
+      "education": ["MBBS - Chittagong Medical College", "MD (Pediatrics) - CMU"],
+      "speciality": ["Pediatrics"],
+      "experience_years": 7,
+      "registration_number": "BMDC54321",
+      "designation": "Pediatrician",
+      "workplace": { "name": "Little Stars Child Clinic", "address": "Muradpur, Chittagong" },
+      "fee_bdt": 600,
+      "availability": {
+        "days": ["Sun", "Mon", "Wed"],
+        "time": "10:00 AM - 1:00 PM",
+        "available": true
+      }
+    },
+    {
+      "id": "dr-004",
+      "image": "https://example.com/images/doctor4.jpg",
+      "name": "Dr. Rubel Ahmed",
+      "available": "Not Available",
+      "education": ["MBBS - Sylhet MAG Osmani Medical College", "MS (Orthopedics) - NITOR"],
+      "speciality": ["Orthopedics"],
+      "experience_years": 15,
+      "registration_number": "BMDC98765",
+      "designation": "Associate Professor (Orthopedics)",
+      "workplace": { "name": "East End Orthopedic Hospital", "address": "Sylhet" },
+      "fee_bdt": 1500,
+      "availability": {
+        "days": ["Tue", "Thu", "Fri"],
+        "time": "4:00 PM - 8:00 PM",
+        "available": true
+      }
+    },
+    {
+      "id": "dr-005",
+      "image": "https://example.com/images/doctor5.jpg",
+      "name": "Dr. Laila Noor",
+       "available": "Available",
+      "education": ["MBBS - BSMMU", "MD (Gynaecology) - BSMMU"],
+      "speciality": ["Obstetrics & Gynaecology"],
+      "experience_years": 10,
+      "registration_number": "BMDC11223",
+      "designation": "Consultant Gynaecologist",
+      "workplace": { "name": "Harmony Women's Clinic", "address": "Motijheel, Dhaka" },
+      "fee_bdt": 1000,
+      "availability": {
+        "days": ["Sun", "Tue", "Thu"],
+        "time": "6:00 PM - 9:00 PM",
+        "available": false
+      }
+    },
+    {
+      "id": "dr-006",
+      "image": "https://example.com/images/doctor6.jpg",
+      "name": "Dr. Sajid Karim",
+       "available": "Available",
+      "education": ["MBBS - Mymensingh Medical College", "MD (Cardiology) - NICVD"],
+      "speciality": ["Cardiology"],
+      "experience_years": 13,
+      "registration_number": "BMDC22456",
+      "designation": "Consultant Cardiologist",
+      "workplace": { "name": "HeartCare Hospital", "address": "Kawran Bazar, Dhaka" },
+      "fee_bdt": 1500,
+      "availability": {
+        "days": ["Mon", "Wed", "Fri"],
+        "time": "5:00 PM - 9:00 PM",
+        "available": true
+      }
+    },
+    {
+      "id": "dr-007",
+      "image": "https://example.com/images/doctor7.jpg",
+      "name": "Dr. Nafisa Chowdhury",
+       "available": "Available",
+      "education": ["MBBS - Khulna Medical College", "FCPS (Dermatology) - BCPS"],
+      "speciality": ["Skin & Venereal Diseases"],
+      "experience_years": 8,
+      "registration_number": "BMDC33478",
+      "designation": "Dermatologist",
+      "workplace": { "name": "Radiant Skin Care", "address": "Banani, Dhaka" },
+      "fee_bdt": 900,
+      "availability": {
+        "days": ["Tue", "Thu", "Sat"],
+        "time": "2:00 PM - 6:00 PM",
+        "available": false
+      }
+    },
+    {
+      "id": "dr-008",
+      "image": "https://example.com/images/doctor8.jpg",
+      "name": "Dr. Tanvir Alam",
+       "available": "Available",
+      "education": ["MBBS - Dhaka Medical College", "MS (ENT) - BSMMU"],
+      "speciality": ["ENT Specialist"],
+      "experience_years": 11,
+      "registration_number": "BMDC44567",
+      "designation": "ENT Surgeon",
+      "workplace": { "name": "SoundCare Hospital", "address": "Mohakhali, Dhaka" },
+      "fee_bdt": 1000,
+      "availability": {
+        "days": ["Mon", "Wed", "Fri"],
+        "time": "10:00 AM - 2:00 PM",
+        "available": true
+      }
+    },
+    {
+      "id": "dr-009",
+      "image": "https://example.com/images/doctor9.jpg",
+      "name": "Dr. Samina Yasmin",
+       "available": "Available",
+      "education": ["MBBS - Rangpur Medical College", "FCPS (Neurology) - BCPS"],
+      "speciality": ["Neurology"],
+      "experience_years": 14,
+      "registration_number": "BMDC55678",
+      "designation": "Neurologist",
+      "workplace": { "name": "Neuro Life Hospital", "address": "Farmgate, Dhaka" },
+      "fee_bdt": 1600,
+      "availability": {
+        "days": ["Sun", "Tue", "Thu"],
+        "time": "3:00 PM - 8:00 PM",
+        "available": true
+      }
+    },
+    {
+      "id": "dr-010",
+      "image": "https://example.com/images/doctor10.jpg",
+      "name": "Dr. Rezaul Islam",
+       "available": "Available",
+      "education": ["MBBS - Barisal Medical College", "MS (Urology) - BSMMU"],
+      "speciality": ["Urology"],
+      "experience_years": 10,
+      "registration_number": "BMDC66789",
+      "designation": "Urologist",
+      "workplace": { "name": "UroMed Center", "address": "Mirpur, Dhaka" },
+      "fee_bdt": 1100,
+      "availability": {
+        "days": ["Mon", "Wed", "Fri"],
+        "time": "5:00 PM - 8:30 PM",
+        "available": false
+      }
+    },
+    {
+      "id": "dr-011",
+      "image": "https://example.com/images/doctor11.jpg",
+      "name": "Dr. Nilufa Akter",
+       "available": "Available",
+      "education": ["MBBS - Comilla Medical College", "FCPS (Ophthalmology) - BCPS"],
+      "speciality": ["Eye Specialist"],
+      "experience_years": 9,
+      "registration_number": "BMDC77890",
+      "designation": "Ophthalmologist",
+      "workplace": { "name": "Vision Plus Eye Center", "address": "Dhanmondi, Dhaka" },
+      "fee_bdt": 700,
+      "availability": {
+        "days": ["Tue", "Thu", "Sat"],
+        "time": "9:00 AM - 12:00 PM",
+        "available": true
+      }
+    },
+    {
+      "id": "dr-012",
+      "image": "https://example.com/images/doctor12.jpg",
+      "name": "Dr. Arif Hossain",
+       "available": "Available",
+      "education": ["MBBS - Dhaka Medical College", "MD (Nephrology) - BSMMU"],
+      "speciality": ["Nephrology (Kidney)"],
+      "experience_years": 16,
+      "registration_number": "BMDC88901",
+      "designation": "Senior Consultant (Nephrology)",
+      "workplace": { "name": "Kidney Health Institute", "address": "Shyamoli, Dhaka" },
+      "fee_bdt": 1500,
+      "availability": {
+        "days": ["Sun", "Wed", "Fri"],
+        "time": "4:30 PM - 8:30 PM",
+        "available": true
+      }
+    }
+  ]
+
