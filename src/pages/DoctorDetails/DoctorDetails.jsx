@@ -1,6 +1,9 @@
 import React from 'react';
-import { useLoaderData, useParams } from 'react-router';
+import {  useLoaderData, useParams } from 'react-router';
 import DefaultBanner from '../../components/DefaultBanner/DefaultBanner';
+import { FiAlertTriangle } from "react-icons/fi";
+import { ToastContainer, toast } from 'react-toastify';
+import { addToStoredDB } from '../../Utilities/addToDB';
 
 const DoctorDetails = () => {
     const {id} = useParams();
@@ -8,11 +11,19 @@ const DoctorDetails = () => {
     const data = useLoaderData();
     const singleDoctor = data.find(doctor => doctor.id === drId);
     const {image,name,education,workplace,registration_number,fee_bdt,days} = singleDoctor || {};
+
+
+    const handleAppoinment = (id) => {
+        toast.success("Appoinment Schedule For " + name+ " Successfully");
+        addToStoredDB(id);
+
+    }
+
     return (
-        <div className='w-full mx-auto flex justify-center items-center flex-col'>
+        <div className='w-full mx-auto flex justify-center items-center flex-col gap-5'>
         <DefaultBanner/>
 
-        <div className=" 2xl:w-7xl lg:w-7xl flex gap-6 justify-between  p-10 bg-gray-100 rounded-3xl">
+        <div className=" 2xl:w-7xl lg:w-7xl flex gap-6 justify-between  p-10 bg-white rounded-3xl">
             <div className="w-[40%]">
                 <img src={image} alt={name} className='rounded-3xl'/>
             </div>
@@ -36,6 +47,35 @@ const DoctorDetails = () => {
                 <p className=''><strong>Consultation Fee:</strong> <span className='text-blue-500 font-bold '>Taka: {fee_bdt} <span className='text-gray-400 font-normal'>(incl. Vat) </span>Per consultation</span></p>
             </div>
         </div>
+        
+        {/* Book Appoinment  */}
+<div className="w-7xl   mx-auto bg-white text-black rounded-3xl p-6">
+      <h4 className="text-4xl text-center pb-3 font-bold">
+        Book an Appointment
+      </h4>
+      <div className=" py-4 flex justify-between items-center border-dashed border-gray-200 border-t-2 border-b-2">
+        <h6 className="text-2xl font-semibold">Availability</h6>
+        <span className="py-4 badge rounded-full bg-green-200 text-green-600 border-green-600">
+          Doctor Available Today
+        </span>
+      </div>
+      <span className="mt-4 text-lg py-5 badge rounded-full  text-amber-500 bg-orange-100 border-none ">
+        {" "}
+        <FiAlertTriangle />
+        Due to high patient volume, we are currently accepting appointments for
+        today only. We appreciate your understanding and cooperation.
+      </span>
+      <button  
+        onClick={() => handleAppoinment(id)}
+        className="mt-8 btn btn-full rounded-full bg-transparent  text-blue-500  border border-blue-500 hover:bg-blue-500 hover:text-white shadow-none transition duration-300 ease-in-out
+ "
+      >
+        Book Appointment Now
+        <ToastContainer />
+      </button>
+    </div>
+
+        {/* ENd Book Appoinment  */}
         </div>
     );
 };

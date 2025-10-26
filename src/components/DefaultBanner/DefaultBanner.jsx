@@ -3,7 +3,7 @@ import React from 'react';
 const DefaultBanner = () => {
     return (
      <div className=" p-6">
-           <div className="w-7xl hero bg-gray-100 rounded-4xl p-10 ">
+           <div className="w-7xl hero bg-white rounded-4xl p-10 ">
   <div className="hero-content text-center">
     <div className="">
       <h1 className="text-3xl font-bold pb-5">Doctor’s Profile Details</h1>

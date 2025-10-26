@@ -16,7 +16,7 @@ const Success = () => {
       </p>
 
       <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
-        <div className="card  bg-gray-100 w-full">
+        <div className="card  bg-white w-full">
           <div className="card-body">
             <FaFileSignature size={40} className="text-blue-500"/>
             <h2 className="card-title text-6xl font-bold"><CountUp start={0} end={199} duration={2.75}></CountUp>+</h2>
@@ -25,7 +25,7 @@ const Success = () => {
             </h6>
           </div>
         </div>
-        <div className="card  bg-gray-100 w-full">
+        <div className="card  bg-white w-full">
           <div className="card-body">
             <FaStar size={40} className="text-yellow-500"/>
             <h2 className="card-title text-6xl font-bold"><CountUp start={0} end={467} duration={2.75}></CountUp>+</h2>
@@ -34,7 +34,7 @@ const Success = () => {
             </h6>
           </div>
         </div>
-        <div className="card  bg-gray-100 w-full">
+        <div className="card  bg-white w-full">
           <div className="card-body">
             <IoIosPeople size={40} className="text-indigo-500"/>
             <h2 className="card-title text-6xl font-bold"><CountUp start={0} end={1900} duration={2.75}></CountUp>+</h2>
@@ -43,7 +43,7 @@ const Success = () => {
             </h6>
           </div>
         </div>
-        <div className="card  bg-gray-100 w-full">
+        <div className="card  bg-white w-full">
           <div className="card-body">
             <FaPeopleRoof size={40} className="text-green-600"/>
             <h2 className="card-title text-6xl font-bold"><CountUp start={0} end={300} duration={2.75}></CountUp>+</h2>
