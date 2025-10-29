@@ -1,11 +1,12 @@
 import React from 'react';
-import {  useLoaderData, useParams } from 'react-router';
+import { useLoaderData, useNavigate, useParams } from 'react-router';
 import DefaultBanner from '../../components/DefaultBanner/DefaultBanner';
 import { FiAlertTriangle } from "react-icons/fi";
 import { ToastContainer, toast } from 'react-toastify';
 import { addToStoredDB } from '../../Utilities/addToDB';
 
 const DoctorDetails = () => {
+  const navigate = useNavigate();
     const {id} = useParams();
     const drId = parseInt(id);
     const data = useLoaderData();
@@ -16,6 +17,9 @@ const DoctorDetails = () => {
     const handleAppoinment = (id) => {
         toast.success("Appoinment Schedule For " + name+ " Successfully");
         addToStoredDB(id);
+        setTimeout(() => {
+      navigate("/myBooking");
+    }, 1200);
 
     }
 
@@ -65,14 +69,15 @@ const DoctorDetails = () => {
         Due to high patient volume, we are currently accepting appointments for
         today only. We appreciate your understanding and cooperation.
       </span>
-      <button  
+      <button  to='/myBooking'
         onClick={() => handleAppoinment(id)}
         className="mt-8 btn btn-full rounded-full bg-transparent  text-blue-500  border border-blue-500 hover:bg-blue-500 hover:text-white shadow-none transition duration-300 ease-in-out
  "
       >
         Book Appointment Now
-        <ToastContainer />
+       
       </button>
+       <ToastContainer />
     </div>
 
         {/* ENd Book Appoinment  */}

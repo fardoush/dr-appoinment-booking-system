@@ -1,9 +1,9 @@
-const getStoredBook = () => {
-const storedBookSTR = localStorage.getItem("readList");
+const getStoredDoctor = () => {
+const storedDoctorSTR = localStorage.getItem("readList");
 
-if(storedBookSTR){
-    const storedBookData = JSON.parse(storedBookSTR);
-    return storedBookData;
+if(storedDoctorSTR){
+    const storedDoctorData = JSON.parse(storedDoctorSTR);
+    return storedDoctorData;
 }
 else {
     return [];
@@ -11,20 +11,20 @@ else {
 }
 
 const addToStoredDB = (id) => {
-    const storedBookData = getStoredBook();
-    if(storedBookData.includes(id)){
+    const storedDoctorData = getStoredDoctor();
+    if(storedDoctorData.includes(id)){
 // alert("this id already exist");
 
     }
     else{
-        storedBookData.push(id);
-        // console.log(storedBookData);
+        storedDoctorData.push(id);
+        // console.log(storedDoctorData);
 
-        const  data = JSON.stringify(storedBookData);
+        const  data = JSON.stringify(storedDoctorData);
         localStorage.setItem("readList",data);
     }
 }
 
-export {addToStoredDB, getStoredBook};
+export {addToStoredDB, getStoredDoctor};
 
 // frontend@tulip-tech.odoo.com 
