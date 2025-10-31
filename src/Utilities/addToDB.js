@@ -1,30 +1,26 @@
 const getStoredDoctor = () => {
-const storedDoctorSTR = localStorage.getItem("readList");
+  const storedDoctorSTR = localStorage.getItem("readList");
 
-if(storedDoctorSTR){
+  if (storedDoctorSTR) {
     const storedDoctorData = JSON.parse(storedDoctorSTR);
     return storedDoctorData;
-}
-else {
+  } else {
     return [];
-}
-}
+  }
+};
 
 const addToStoredDB = (id) => {
-    const storedDoctorData = getStoredDoctor();
-    if(storedDoctorData.includes(id)){
-// alert("this id already exist");
+  const storedDoctorData = getStoredDoctor();
+  if (!storedDoctorData.includes(id)) {
+    storedDoctorData.push(id);
+    localStorage.setItem("readList", JSON.stringify(storedDoctorData));
+  }
+};
 
-    }
-    else{
-        storedDoctorData.push(id);
-        // console.log(storedDoctorData);
+const removeFromStoredDB = (id) => {
+  const storedDoctorData = getStoredDoctor();
+  const remainingDoctors = storedDoctorData.filter((doctorId) => doctorId !== id);
+  localStorage.setItem("readList", JSON.stringify(remainingDoctors));
+};
 
-        const  data = JSON.stringify(storedDoctorData);
-        localStorage.setItem("readList",data);
-    }
-}
-
-export {addToStoredDB, getStoredDoctor};
-
-// frontend@tulip-tech.odoo.com 
+export { addToStoredDB, getStoredDoctor, removeFromStoredDB };
